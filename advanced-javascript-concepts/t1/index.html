@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="fi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ravintolat (AJAX API)</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="main.js"></script>
+  </head>
+  <body>
+    <h1>Ravintolat</h1>
+
+    <div id="error-message"></div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Nimi</th>
+          <th>Osoite</th>
+        </tr>
+      </thead>
+      <tbody id="restaurant-table-body"></tbody>
+    </table>
+
+    <dialog id="restaurant-modal">
+      <div id="modal-content"></div>
+      <button id="close-dialog">Sulje</button>
+    </dialog>
+  </body>
+</html>
